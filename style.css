@@ -1,0 +1,20 @@
+button{
+width: 300px;
+height: 300px;
+border-radius: 20px;
+font-size: 50px;
+background-image: linear-gradient(#FFA500, #fff4b3);
+color: white;
+font-weight: bold;
+border-color: red;
+}
+
+body{
+    text-align: center;
+}
+
+button:hover {
+    width: 350px;
+    height: 350px;
+    transition: width 2s, height 2s;
+  }
